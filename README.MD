@@ -1,21 +1,14 @@
-Continuous Delivery Environments Example
+Continuous Delivery Environments Tutorial Starter
 =====
 
-An example application for how you can integrating content migrations in your continous delivery pipeline.
-
-What is this about?
-=====
-
-This example deploys a simple flask site integrated with Contentful onto heroku utilizing CircleCi.
-
-You can read our [conceptual guide](https://www.contentful.com/developers/docs/concepts/deployment-pipeline/) on how to utilize Contentful Enivorments inside your continous delivery pipelipe.
+This code is for usage with the Continuous Delivery Environments Tutorial. The completed example application for how you can integrating content migrations in your continous delivery pipeline can be found at https://github.com/contentful-labs/continous-delivery-environments-example.
 
 Getting started
 =====
 
 ### Requirements
 
-To use the continous delivery pipeline of this project you need accounts for the following services:
+To use this project project you need accounts for the following services:
 
 - Python3
 - Node 8.0+
@@ -62,6 +55,7 @@ contentful login
 
 #### The continuous delivery pipeline
 
+* Implement Steps in the Continuous Delivery Environments Tutorial
 * Add this repository as a project on CircleCI
 * Create an API Key on Heroku
 * Define the following environment variables on CircleCI:
