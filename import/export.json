@@ -6,13 +6,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
-        "id": "post",
+        "id": "versionTracking",
         "type": "ContentType",
-        "createdAt": "2018-05-08T17:41:21.883Z",
-        "updatedAt": "2018-05-30T15:19:40.348Z",
+        "createdAt": "2018-07-13T14:52:11.997Z",
+        "updatedAt": "2018-07-13T14:52:15.938Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -34,8 +34,8 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedCounter": 11,
-        "version": 22,
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -43,9 +43,83 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 21,
-        "firstPublishedAt": "2018-05-08T17:41:22.199Z",
-        "publishedAt": "2018-05-30T15:19:40.348Z"
+        "publishedVersion": 1,
+        "firstPublishedAt": "2018-07-13T14:52:15.938Z",
+        "publishedAt": "2018-07-13T14:52:15.938Z"
+      },
+      "displayField": "version",
+      "name": "version_tracking",
+      "description": "",
+      "fields": [
+        {
+          "id": "version",
+          "name": "version",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            },
+            {
+              "regexp": {
+                "pattern": "^(?:(\\d+)\\.)?(?:(\\d+)\\.)?(\\*|\\d+)$",
+                "flags": null
+              },
+              "message": "Version Stuff"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "x6zmnict01oi"
+          }
+        },
+        "id": "post",
+        "type": "ContentType",
+        "createdAt": "2018-07-13T14:52:12.044Z",
+        "updatedAt": "2018-07-13T15:45:51.592Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "publishedVersion": 5,
+        "firstPublishedAt": "2018-07-13T14:52:15.572Z",
+        "publishedAt": "2018-07-13T15:45:51.592Z"
       },
       "displayField": "title",
       "name": "post",
@@ -106,91 +180,6 @@
           ],
           "disabled": false,
           "omitted": false
-        },
-        {
-          "id": "author",
-          "name": "author",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "o1enbvcutykv"
-          }
-        },
-        "id": "versionTracking",
-        "type": "ContentType",
-        "createdAt": "2018-05-15T20:22:57.201Z",
-        "updatedAt": "2018-05-25T16:38:53.662Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedCounter": 3,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedVersion": 5,
-        "firstPublishedAt": "2018-05-15T20:22:57.706Z",
-        "publishedAt": "2018-05-25T16:38:53.662Z"
-      },
-      "displayField": "version",
-      "name": "version_tracking",
-      "description": "",
-      "fields": [
-        {
-          "id": "version",
-          "name": "version",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "unique": true
-            },
-            {
-              "regexp": {
-                "pattern": "^(?:(\\d+)\\.)?(?:(\\d+)\\.)?(\\*|\\d+)$",
-                "flags": null
-              },
-              "message": "Version Stuff"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
         }
       ]
     }
@@ -202,13 +191,13 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "o1enbvcutykv",
+            "id": "x6zmnict01oi",
             "type": "Link",
             "linkType": "Space"
           }
         },
-        "version": 14,
-        "createdAt": "2018-05-08T17:41:22.328Z",
+        "version": 2,
+        "createdAt": "2018-07-13T14:52:16.132Z",
         "createdBy": {
           "sys": {
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy",
@@ -216,7 +205,57 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2018-05-30T15:19:40.502Z",
+        "updatedAt": "2018-07-13T14:52:16.658Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "versionTracking",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "version",
+          "widgetId": "singleLine"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "x6zmnict01oi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2018-07-13T14:52:15.711Z",
+        "createdBy": {
+          "sys": {
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2018-07-13T15:45:52.205Z",
         "updatedBy": {
           "sys": {
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy",
@@ -255,60 +294,6 @@
         {
           "fieldId": "first_appearance",
           "widgetId": "singleLine"
-        },
-        {
-          "fieldId": "author",
-          "widgetId": "singleLine"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "o1enbvcutykv",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 6,
-        "createdAt": "2018-05-15T20:22:57.853Z",
-        "createdBy": {
-          "sys": {
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2018-05-25T16:38:54.900Z",
-        "updatedBy": {
-          "sys": {
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "versionTracking",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "version",
-          "widgetId": "singleLine"
         }
       ]
     }
@@ -320,88 +305,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
-          }
-        },
-        "id": "2SiSYthyVaasy84IssCQAw",
-        "type": "Entry",
-        "createdAt": "2018-05-08T17:41:33.249Z",
-        "updatedAt": "2018-05-18T16:38:37.172Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedCounter": 2,
-        "version": 13,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedVersion": 12,
-        "firstPublishedAt": "2018-05-08T17:56:04.615Z",
-        "publishedAt": "2018-05-18T16:38:37.172Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "post"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Hawkeye"
-        },
-        "slug": {
-          "en-US": "hawkeye"
-        },
-        "gif": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "NJXdJT7M4KgUcE4uS8KUC"
-            }
-          }
-        },
-        "first_appearance": {
-          "en-US": "Tales of Suspense #57 (Sept. 1964)"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
         "id": "3G84ulTwjCMcQWQoCgm4G4",
         "type": "Entry",
-        "createdAt": "2018-05-08T17:56:10.694Z",
-        "updatedAt": "2018-05-18T16:39:37.293Z",
+        "createdAt": "2018-07-13T14:52:26.438Z",
+        "updatedAt": "2018-07-13T14:52:28.662Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -423,8 +333,8 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedCounter": 4,
-        "version": 14,
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -432,9 +342,9 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 13,
-        "firstPublishedAt": "2018-05-08T18:03:26.891Z",
-        "publishedAt": "2018-05-18T16:39:37.293Z",
+        "publishedVersion": 1,
+        "firstPublishedAt": "2018-07-13T14:52:28.661Z",
+        "publishedAt": "2018-07-13T14:52:28.661Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -470,13 +380,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
-        "id": "33PogRALNYkYE4e2iumAiU",
+        "id": "18iKSQj9YUo6iGc42A6kSS",
         "type": "Entry",
-        "createdAt": "2018-05-08T18:03:46.923Z",
-        "updatedAt": "2018-05-18T16:39:16.598Z",
+        "createdAt": "2018-07-13T14:52:26.445Z",
+        "updatedAt": "2018-07-13T15:45:58.623Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -499,7 +409,7 @@
           }
         },
         "publishedCounter": 2,
-        "version": 17,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -507,9 +417,144 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 16,
-        "firstPublishedAt": "2018-05-08T18:04:10.405Z",
-        "publishedAt": "2018-05-18T16:39:16.598Z",
+        "publishedVersion": 3,
+        "firstPublishedAt": "2018-07-13T14:52:27.755Z",
+        "publishedAt": "2018-07-13T15:45:58.623Z",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "versionTracking"
+          }
+        }
+      },
+      "fields": {
+        "version": {
+          "en-US": "0.0.3"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "x6zmnict01oi"
+          }
+        },
+        "id": "2SiSYthyVaasy84IssCQAw",
+        "type": "Entry",
+        "createdAt": "2018-07-13T14:52:26.457Z",
+        "updatedAt": "2018-07-13T14:52:26.814Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "publishedVersion": 1,
+        "firstPublishedAt": "2018-07-13T14:52:26.814Z",
+        "publishedAt": "2018-07-13T14:52:26.814Z",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Hawkeye"
+        },
+        "slug": {
+          "en-US": "hawkeye"
+        },
+        "gif": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "NJXdJT7M4KgUcE4uS8KUC"
+            }
+          }
+        },
+        "first_appearance": {
+          "en-US": "Tales of Suspense #57 (Sept. 1964)"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "x6zmnict01oi"
+          }
+        },
+        "id": "33PogRALNYkYE4e2iumAiU",
+        "type": "Entry",
+        "createdAt": "2018-07-13T14:52:26.461Z",
+        "updatedAt": "2018-07-13T14:52:28.373Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "publishedVersion": 1,
+        "firstPublishedAt": "2018-07-13T14:52:28.373Z",
+        "publishedAt": "2018-07-13T14:52:28.373Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -545,13 +590,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
         "id": "5DZ6YtRSCIYoUSW2wq4ISI",
         "type": "Entry",
-        "createdAt": "2018-05-08T18:04:44.325Z",
-        "updatedAt": "2018-05-18T16:38:51.398Z",
+        "createdAt": "2018-07-13T14:52:26.509Z",
+        "updatedAt": "2018-07-13T14:52:27.986Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -573,8 +618,8 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedCounter": 2,
-        "version": 8,
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -582,9 +627,9 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 7,
-        "firstPublishedAt": "2018-05-08T18:04:59.803Z",
-        "publishedAt": "2018-05-18T16:38:51.398Z",
+        "publishedVersion": 1,
+        "firstPublishedAt": "2018-07-13T14:52:27.986Z",
+        "publishedAt": "2018-07-13T14:52:27.986Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -613,66 +658,6 @@
           "en-US": "Tales to Astonish #13 (November 1960)"
         }
       }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "o1enbvcutykv"
-          }
-        },
-        "id": "18iKSQj9YUo6iGc42A6kSS",
-        "type": "Entry",
-        "createdAt": "2018-05-15T20:23:02.510Z",
-        "updatedAt": "2018-05-30T15:19:39.687Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedCounter": 15,
-        "version": 56,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedVersion": 55,
-        "firstPublishedAt": "2018-05-15T20:23:15.007Z",
-        "publishedAt": "2018-05-30T15:19:39.687Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "versionTracking"
-          }
-        }
-      },
-      "fields": {
-        "version": {
-          "en-US": "0.0.7"
-        }
-      }
     }
   ],
   "assets": [
@@ -682,13 +667,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
-        "id": "NJXdJT7M4KgUcE4uS8KUC",
+        "id": "3caPL1qzVYSGyAC8A8KQEK",
         "type": "Asset",
-        "createdAt": "2018-05-08T17:55:46.344Z",
-        "updatedAt": "2018-05-08T17:55:57.175Z",
+        "createdAt": "2018-07-13T14:52:16.861Z",
+        "updatedAt": "2018-07-13T14:52:25.495Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -711,7 +696,7 @@
           }
         },
         "publishedCounter": 1,
-        "version": 5,
+        "version": 3,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -719,25 +704,25 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 4,
-        "firstPublishedAt": "2018-05-08T17:55:57.175Z",
-        "publishedAt": "2018-05-08T17:55:57.175Z"
+        "publishedVersion": 2,
+        "firstPublishedAt": "2018-07-13T14:52:25.495Z",
+        "publishedAt": "2018-07-13T14:52:25.495Z"
       },
       "fields": {
         "title": {
-          "en-US": "hawkeye"
+          "en-US": "thor"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/o1enbvcutykv/NJXdJT7M4KgUcE4uS8KUC/94cbd9c7b3e871caaec1c13ff3a6bb75/hawkeye.gif",
+            "url": "//images.ctfassets.net/x6zmnict01oi/3caPL1qzVYSGyAC8A8KQEK/acf398c1803e21381b6ccaa59b06294c/thor.gif",
             "details": {
-              "size": 997007,
+              "size": 6914461,
               "image": {
-                "width": 500,
-                "height": 260
+                "width": 400,
+                "height": 400
               }
             },
-            "fileName": "hawkeye.gif",
+            "fileName": "thor.gif",
             "contentType": "image/gif"
           }
         }
@@ -749,80 +734,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
-          }
-        },
-        "id": "4TRRH6jH6wmAccw488yaOW",
-        "type": "Asset",
-        "createdAt": "2018-05-08T18:03:55.933Z",
-        "updatedAt": "2018-05-08T18:04:06.489Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 5,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedVersion": 4,
-        "firstPublishedAt": "2018-05-08T18:04:06.489Z",
-        "publishedAt": "2018-05-08T18:04:06.489Z"
-      },
-      "fields": {
-        "title": {
-          "en-US": "black panther"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/o1enbvcutykv/4TRRH6jH6wmAccw488yaOW/1befc824d78c92f81e68756b6f2b28af/black_panther.gif",
-            "details": {
-              "size": 4711930,
-              "image": {
-                "width": 600,
-                "height": 600
-              }
-            },
-            "fileName": "black panther.gif",
-            "contentType": "image/gif"
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
         "id": "4jjPeB1eFGMAEeoiiAMqiQ",
         "type": "Asset",
-        "createdAt": "2018-05-08T18:04:47.506Z",
-        "updatedAt": "2018-05-08T18:04:56.592Z",
+        "createdAt": "2018-07-13T14:52:16.868Z",
+        "updatedAt": "2018-07-13T14:52:25.918Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -845,7 +763,7 @@
           }
         },
         "publishedCounter": 1,
-        "version": 5,
+        "version": 3,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -853,9 +771,9 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 4,
-        "firstPublishedAt": "2018-05-08T18:04:56.592Z",
-        "publishedAt": "2018-05-08T18:04:56.592Z"
+        "publishedVersion": 2,
+        "firstPublishedAt": "2018-07-13T14:52:25.918Z",
+        "publishedAt": "2018-07-13T14:52:25.918Z"
       },
       "fields": {
         "title": {
@@ -863,7 +781,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/o1enbvcutykv/4jjPeB1eFGMAEeoiiAMqiQ/45cddcde379736693c7bec30c3c305a7/groot.gif",
+            "url": "//images.ctfassets.net/x6zmnict01oi/4jjPeB1eFGMAEeoiiAMqiQ/fddf44e012d2ac82bbd6d6d13be68e9d/groot.gif",
             "details": {
               "size": 1938238,
               "image": {
@@ -883,13 +801,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
-        "id": "3caPL1qzVYSGyAC8A8KQEK",
+        "id": "NJXdJT7M4KgUcE4uS8KUC",
         "type": "Asset",
-        "createdAt": "2018-05-08T19:40:39.383Z",
-        "updatedAt": "2018-05-08T19:41:04.513Z",
+        "createdAt": "2018-07-13T14:52:16.892Z",
+        "updatedAt": "2018-07-13T14:52:24.871Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -912,7 +830,7 @@
           }
         },
         "publishedCounter": 1,
-        "version": 6,
+        "version": 3,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -920,25 +838,92 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 5,
-        "firstPublishedAt": "2018-05-08T19:41:04.513Z",
-        "publishedAt": "2018-05-08T19:41:04.513Z"
+        "publishedVersion": 2,
+        "firstPublishedAt": "2018-07-13T14:52:24.871Z",
+        "publishedAt": "2018-07-13T14:52:24.871Z"
       },
       "fields": {
         "title": {
-          "en-US": "thor"
+          "en-US": "hawkeye"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/o1enbvcutykv/3caPL1qzVYSGyAC8A8KQEK/b62d368cea366cc3218251bf0badd024/thor.gif",
+            "url": "//images.ctfassets.net/x6zmnict01oi/NJXdJT7M4KgUcE4uS8KUC/0e2e470dcc5c48258324b192e7bb63d4/hawkeye.gif",
             "details": {
-              "size": 6914461,
+              "size": 997007,
               "image": {
-                "width": 400,
-                "height": 400
+                "width": 500,
+                "height": 260
               }
             },
-            "fileName": "thor.gif",
+            "fileName": "hawkeye.gif",
+            "contentType": "image/gif"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "x6zmnict01oi"
+          }
+        },
+        "id": "4TRRH6jH6wmAccw488yaOW",
+        "type": "Asset",
+        "createdAt": "2018-07-13T14:52:17.096Z",
+        "updatedAt": "2018-07-13T14:52:26.219Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
+          }
+        },
+        "publishedVersion": 2,
+        "firstPublishedAt": "2018-07-13T14:52:26.219Z",
+        "publishedAt": "2018-07-13T14:52:26.219Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "black panther"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/x6zmnict01oi/4TRRH6jH6wmAccw488yaOW/29735f0168f6d84d126cd24a886e3895/black_panther.gif",
+            "details": {
+              "size": 4711930,
+              "image": {
+                "width": 600,
+                "height": 600
+              }
+            },
+            "fileName": "black panther.gif",
             "contentType": "image/gif"
           }
         }
@@ -956,13 +941,13 @@
       "optional": false,
       "sys": {
         "type": "Locale",
-        "id": "66bIShBqE4Vo2vRGs0QIEG",
+        "id": "0ZUjkUnS3ipkZwcwtCPZXE",
         "version": 1,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
         "environment": {
@@ -979,7 +964,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "createdAt": "2018-05-08T17:40:12Z",
+        "createdAt": "2018-07-13T14:51:20Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
@@ -987,7 +972,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "updatedAt": "2018-05-08T17:40:12Z"
+        "updatedAt": "2018-07-13T14:51:20Z"
       }
     }
   ],
@@ -1114,17 +1099,19 @@
         "Settings": [
         ],
         "ContentDelivery": [
+        ],
+        "Environments": [
         ]
       },
       "sys": {
         "type": "Role",
-        "id": "662e9auHkWPTfXEQRS5Tku",
+        "id": "0ZL7Fn7w0oDtyeqBD9Z9Xo",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
         "createdBy": {
@@ -1134,7 +1121,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "createdAt": "2018-05-08T17:40:11Z",
+        "createdAt": "2018-07-13T14:51:20Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
@@ -1142,7 +1129,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "updatedAt": "2018-05-08T17:40:11Z"
+        "updatedAt": "2018-07-13T14:51:20Z"
       }
     },
     {
@@ -1192,17 +1179,19 @@
         ],
         "Settings": [
         ],
-        "ContentDelivery": "all"
+        "ContentDelivery": "all",
+        "Environments": [
+        ]
       },
       "sys": {
         "type": "Role",
-        "id": "663UGtI5zup3KUqSSdc0Ge",
+        "id": "0ZLNvgHiFcHnnHXnTrCt0W",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
         "createdBy": {
@@ -1212,7 +1201,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "createdAt": "2018-05-08T17:40:11Z",
+        "createdAt": "2018-07-13T14:51:20Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
@@ -1220,7 +1209,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "updatedAt": "2018-05-08T17:40:11Z"
+        "updatedAt": "2018-07-13T14:51:20Z"
       }
     },
     {
@@ -1267,17 +1256,19 @@
         "Settings": [
         ],
         "ContentDelivery": [
+        ],
+        "Environments": [
         ]
       },
       "sys": {
         "type": "Role",
-        "id": "664G9UQuQicunxZZYgysEq",
+        "id": "0ZMlYoZZmQQ41OtLYncHgO",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
         "createdBy": {
@@ -1287,7 +1278,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "createdAt": "2018-05-08T17:40:11Z",
+        "createdAt": "2018-07-13T14:51:20Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
@@ -1295,7 +1286,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "updatedAt": "2018-05-08T17:40:11Z"
+        "updatedAt": "2018-07-13T14:51:20Z"
       }
     },
     {
@@ -1516,17 +1507,19 @@
         "Settings": [
         ],
         "ContentDelivery": [
+        ],
+        "Environments": [
         ]
       },
       "sys": {
         "type": "Role",
-        "id": "665wt8ZZLFG0GzVcsIlnNo",
+        "id": "0ZMZT4jyfk9fctSiBM42US",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
         "createdBy": {
@@ -1536,7 +1529,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "createdAt": "2018-05-08T17:40:11Z",
+        "createdAt": "2018-07-13T14:51:20Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
@@ -1544,7 +1537,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "updatedAt": "2018-05-08T17:40:11Z"
+        "updatedAt": "2018-07-13T14:51:20Z"
       }
     },
     {
@@ -1645,17 +1638,19 @@
         "Settings": [
         ],
         "ContentDelivery": [
+        ],
+        "Environments": [
         ]
       },
       "sys": {
         "type": "Role",
-        "id": "666spUI7j2T3MLSJMVRrR0",
+        "id": "0ZNNdrNQhCdao011wft1bo",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
         "createdBy": {
@@ -1665,7 +1660,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "createdAt": "2018-05-08T17:40:11Z",
+        "createdAt": "2018-07-13T14:51:20Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
@@ -1673,7 +1668,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "updatedAt": "2018-05-08T17:40:11Z"
+        "updatedAt": "2018-07-13T14:51:20Z"
       }
     },
     {
@@ -1774,17 +1769,19 @@
         "Settings": [
         ],
         "ContentDelivery": [
+        ],
+        "Environments": [
         ]
       },
       "sys": {
         "type": "Role",
-        "id": "6678APeXJoWh5irRxuhNzQ",
+        "id": "0ZOpMUuqHgsJHELTmEUtZk",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
         "createdBy": {
@@ -1794,7 +1791,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "createdAt": "2018-05-08T17:40:11Z",
+        "createdAt": "2018-07-13T14:51:20Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
@@ -1802,7 +1799,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "updatedAt": "2018-05-08T17:40:11Z"
+        "updatedAt": "2018-07-13T14:51:20Z"
       }
     },
     {
@@ -1903,17 +1900,19 @@
         "Settings": [
         ],
         "ContentDelivery": [
+        ],
+        "Environments": [
         ]
       },
       "sys": {
         "type": "Role",
-        "id": "667OjRmBzfP0LhSOv1WO38",
+        "id": "0ZP1SMphjFKxmpn85S61TE",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "o1enbvcutykv"
+            "id": "x6zmnict01oi"
           }
         },
         "createdBy": {
@@ -1923,7 +1922,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "createdAt": "2018-05-08T17:40:11Z",
+        "createdAt": "2018-07-13T14:51:20Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
@@ -1931,7 +1930,7 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "updatedAt": "2018-05-08T17:40:11Z"
+        "updatedAt": "2018-07-13T14:51:20Z"
       }
     }
   ]
