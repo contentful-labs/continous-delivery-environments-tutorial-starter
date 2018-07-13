@@ -9,84 +9,10 @@
             "id": "x6zmnict01oi"
           }
         },
-        "id": "versionTracking",
-        "type": "ContentType",
-        "createdAt": "2018-07-13T14:52:11.997Z",
-        "updatedAt": "2018-07-13T14:52:15.938Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedVersion": 1,
-        "firstPublishedAt": "2018-07-13T14:52:15.938Z",
-        "publishedAt": "2018-07-13T14:52:15.938Z"
-      },
-      "displayField": "version",
-      "name": "version_tracking",
-      "description": "",
-      "fields": [
-        {
-          "id": "version",
-          "name": "version",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "unique": true
-            },
-            {
-              "regexp": {
-                "pattern": "^(?:(\\d+)\\.)?(?:(\\d+)\\.)?(\\*|\\d+)$",
-                "flags": null
-              },
-              "message": "Version Stuff"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zmnict01oi"
-          }
-        },
         "id": "post",
         "type": "ContentType",
         "createdAt": "2018-07-13T14:52:12.044Z",
-        "updatedAt": "2018-07-13T15:45:51.592Z",
+        "updatedAt": "2018-07-13T15:48:39.264Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -108,8 +34,8 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedCounter": 3,
-        "version": 6,
+        "publishedCounter": 4,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -117,9 +43,9 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 5,
+        "publishedVersion": 7,
         "firstPublishedAt": "2018-07-13T14:52:15.572Z",
-        "publishedAt": "2018-07-13T15:45:51.592Z"
+        "publishedAt": "2018-07-13T15:48:39.264Z"
       },
       "displayField": "title",
       "name": "post",
@@ -196,57 +122,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
-        "createdAt": "2018-07-13T14:52:16.132Z",
-        "createdBy": {
-          "sys": {
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2018-07-13T14:52:16.658Z",
-        "updatedBy": {
-          "sys": {
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "versionTracking",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "version",
-          "widgetId": "singleLine"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "x6zmnict01oi",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 6,
+        "version": 8,
         "createdAt": "2018-07-13T14:52:15.711Z",
         "createdBy": {
           "sys": {
@@ -255,7 +131,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2018-07-13T15:45:52.205Z",
+        "updatedAt": "2018-07-13T15:48:40.328Z",
         "updatedBy": {
           "sys": {
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy",
@@ -311,7 +187,7 @@
         "id": "3G84ulTwjCMcQWQoCgm4G4",
         "type": "Entry",
         "createdAt": "2018-07-13T14:52:26.438Z",
-        "updatedAt": "2018-07-13T14:52:28.662Z",
+        "updatedAt": "2018-07-13T15:48:50.722Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -333,8 +209,8 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -342,9 +218,9 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 3,
         "firstPublishedAt": "2018-07-13T14:52:28.661Z",
-        "publishedAt": "2018-07-13T14:52:28.661Z",
+        "publishedAt": "2018-07-13T15:48:50.722Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -383,10 +259,10 @@
             "id": "x6zmnict01oi"
           }
         },
-        "id": "18iKSQj9YUo6iGc42A6kSS",
+        "id": "2SiSYthyVaasy84IssCQAw",
         "type": "Entry",
-        "createdAt": "2018-07-13T14:52:26.445Z",
-        "updatedAt": "2018-07-13T15:45:58.623Z",
+        "createdAt": "2018-07-13T14:52:26.457Z",
+        "updatedAt": "2018-07-13T15:48:51.766Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -418,68 +294,8 @@
           }
         },
         "publishedVersion": 3,
-        "firstPublishedAt": "2018-07-13T14:52:27.755Z",
-        "publishedAt": "2018-07-13T15:45:58.623Z",
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "versionTracking"
-          }
-        }
-      },
-      "fields": {
-        "version": {
-          "en-US": "0.0.3"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "x6zmnict01oi"
-          }
-        },
-        "id": "2SiSYthyVaasy84IssCQAw",
-        "type": "Entry",
-        "createdAt": "2018-07-13T14:52:26.457Z",
-        "updatedAt": "2018-07-13T14:52:26.814Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
-          }
-        },
-        "publishedVersion": 1,
         "firstPublishedAt": "2018-07-13T14:52:26.814Z",
-        "publishedAt": "2018-07-13T14:52:26.814Z",
+        "publishedAt": "2018-07-13T15:48:51.766Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -521,7 +337,7 @@
         "id": "33PogRALNYkYE4e2iumAiU",
         "type": "Entry",
         "createdAt": "2018-07-13T14:52:26.461Z",
-        "updatedAt": "2018-07-13T14:52:28.373Z",
+        "updatedAt": "2018-07-13T15:48:51.430Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -543,8 +359,8 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -552,9 +368,9 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 3,
         "firstPublishedAt": "2018-07-13T14:52:28.373Z",
-        "publishedAt": "2018-07-13T14:52:28.373Z",
+        "publishedAt": "2018-07-13T15:48:51.430Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -596,7 +412,7 @@
         "id": "5DZ6YtRSCIYoUSW2wq4ISI",
         "type": "Entry",
         "createdAt": "2018-07-13T14:52:26.509Z",
-        "updatedAt": "2018-07-13T14:52:27.986Z",
+        "updatedAt": "2018-07-13T15:48:51.065Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -618,8 +434,8 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -627,9 +443,9 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 1,
+        "publishedVersion": 3,
         "firstPublishedAt": "2018-07-13T14:52:27.986Z",
-        "publishedAt": "2018-07-13T14:52:27.986Z",
+        "publishedAt": "2018-07-13T15:48:51.065Z",
         "contentType": {
           "sys": {
             "type": "Link",
@@ -673,7 +489,7 @@
         "id": "3caPL1qzVYSGyAC8A8KQEK",
         "type": "Asset",
         "createdAt": "2018-07-13T14:52:16.861Z",
-        "updatedAt": "2018-07-13T14:52:25.495Z",
+        "updatedAt": "2018-07-13T15:48:49.139Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -695,8 +511,8 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -704,9 +520,9 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 2,
+        "publishedVersion": 5,
         "firstPublishedAt": "2018-07-13T14:52:25.495Z",
-        "publishedAt": "2018-07-13T14:52:25.495Z"
+        "publishedAt": "2018-07-13T15:48:49.139Z"
       },
       "fields": {
         "title": {
@@ -714,7 +530,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/x6zmnict01oi/3caPL1qzVYSGyAC8A8KQEK/acf398c1803e21381b6ccaa59b06294c/thor.gif",
+            "url": "//images.ctfassets.net/x6zmnict01oi/3caPL1qzVYSGyAC8A8KQEK/fd718eb7e60a23e0467eabab46bb00b7/thor.gif",
             "details": {
               "size": 6914461,
               "image": {
@@ -740,7 +556,7 @@
         "id": "4jjPeB1eFGMAEeoiiAMqiQ",
         "type": "Asset",
         "createdAt": "2018-07-13T14:52:16.868Z",
-        "updatedAt": "2018-07-13T14:52:25.918Z",
+        "updatedAt": "2018-07-13T15:48:49.791Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -762,8 +578,8 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -771,9 +587,9 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 2,
+        "publishedVersion": 5,
         "firstPublishedAt": "2018-07-13T14:52:25.918Z",
-        "publishedAt": "2018-07-13T14:52:25.918Z"
+        "publishedAt": "2018-07-13T15:48:49.791Z"
       },
       "fields": {
         "title": {
@@ -781,7 +597,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/x6zmnict01oi/4jjPeB1eFGMAEeoiiAMqiQ/fddf44e012d2ac82bbd6d6d13be68e9d/groot.gif",
+            "url": "//images.ctfassets.net/x6zmnict01oi/4jjPeB1eFGMAEeoiiAMqiQ/74931ecf949a17836976c0e81158cb54/groot.gif",
             "details": {
               "size": 1938238,
               "image": {
@@ -807,7 +623,7 @@
         "id": "NJXdJT7M4KgUcE4uS8KUC",
         "type": "Asset",
         "createdAt": "2018-07-13T14:52:16.892Z",
-        "updatedAt": "2018-07-13T14:52:24.871Z",
+        "updatedAt": "2018-07-13T15:48:49.607Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -829,8 +645,8 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -838,9 +654,9 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 2,
+        "publishedVersion": 5,
         "firstPublishedAt": "2018-07-13T14:52:24.871Z",
-        "publishedAt": "2018-07-13T14:52:24.871Z"
+        "publishedAt": "2018-07-13T15:48:49.607Z"
       },
       "fields": {
         "title": {
@@ -848,7 +664,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/x6zmnict01oi/NJXdJT7M4KgUcE4uS8KUC/0e2e470dcc5c48258324b192e7bb63d4/hawkeye.gif",
+            "url": "//images.ctfassets.net/x6zmnict01oi/NJXdJT7M4KgUcE4uS8KUC/2e5c91c986885b60d00123b75fdbd62f/hawkeye.gif",
             "details": {
               "size": 997007,
               "image": {
@@ -874,7 +690,7 @@
         "id": "4TRRH6jH6wmAccw488yaOW",
         "type": "Asset",
         "createdAt": "2018-07-13T14:52:17.096Z",
-        "updatedAt": "2018-07-13T14:52:26.219Z",
+        "updatedAt": "2018-07-13T15:48:49.354Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -896,8 +712,8 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -905,9 +721,9 @@
             "id": "7rzZOcLgy7z0Ud2Sb5EyHy"
           }
         },
-        "publishedVersion": 2,
+        "publishedVersion": 5,
         "firstPublishedAt": "2018-07-13T14:52:26.219Z",
-        "publishedAt": "2018-07-13T14:52:26.219Z"
+        "publishedAt": "2018-07-13T15:48:49.354Z"
       },
       "fields": {
         "title": {
@@ -915,7 +731,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/x6zmnict01oi/4TRRH6jH6wmAccw488yaOW/29735f0168f6d84d126cd24a886e3895/black_panther.gif",
+            "url": "//images.ctfassets.net/x6zmnict01oi/4TRRH6jH6wmAccw488yaOW/c492a964ef67cf83c7e21894552b2181/black_panther.gif",
             "details": {
               "size": 4711930,
               "image": {
