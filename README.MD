@@ -1,7 +1,7 @@
 Continuous Delivery Environments Tutorial Starter
 =====
 
-This code is for usage with the Continuous Delivery Environments Tutorial. The completed example application for how you can integrating content migrations in your continous delivery pipeline can be found at https://github.com/contentful-labs/continous-delivery-environments-example.
+This code is for usage with the [Continuous Delivery Environments Tutorial](https://www.contentful.com/developers/docs/tutorials/general/continuous-integration-with-circleci/). The completed example application for how you can integrating content migrations in your continous delivery pipeline can be found at https://github.com/contentful-labs/continous-delivery-environments-example.
 
 Getting started
 =====
